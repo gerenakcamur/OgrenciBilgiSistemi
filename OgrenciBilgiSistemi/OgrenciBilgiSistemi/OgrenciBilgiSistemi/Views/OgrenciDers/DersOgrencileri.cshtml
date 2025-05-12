@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Ders Öğrencileri";
+}
+
+<h1>Ders Öğrencileri ve Not Girişi</h1>
+
+<div class="row mb-4">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h5>Ders, Yıl ve Yarıyıl Seçin</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="DersOgrencileri" method="post">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group mb-3">
+                                <label class="control-label">Ders</label>
+                                <select name="dersID" class="form-control" asp-items="ViewBag.Dersler" required></select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group mb-3">
+                                <label class="control-label">Yıl</label>
+                                <select name="yil" class="form-control" asp-items="ViewBag.Yillar" required></select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group mb-3">
+                                <label class="control-label">Yarıyıl</label>
+                                <select name="yariyil" class="form-control" asp-items="ViewBag.Yariyillar" required></select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Listele" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}

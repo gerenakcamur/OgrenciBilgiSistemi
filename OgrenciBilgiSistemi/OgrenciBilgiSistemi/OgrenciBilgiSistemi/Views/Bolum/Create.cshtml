@@ -1,0 +1,43 @@
+@model OgrenciBilgiSistemi.Models.Bolum
+
+@{
+    ViewData["Title"] = "Bölüm Ekle";
+}
+
+<h1>Bölüm Ekle</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+            @Html.AntiForgeryToken() <!-- CSRF koruması için ekleniyor -->
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+            {
+                <div class="text-danger">@ViewBag.ErrorMessage</div>
+            }
+            <div class="form-group mb-3">
+                <label asp-for="bolumAd" class="control-label"></label>
+                <input asp-for="bolumAd" class="form-control" />
+                <span asp-validation-for="bolumAd" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="fakulteID" class="control-label"></label>
+                <select asp-for="fakulteID" class="form-control" asp-items="ViewBag.fakulteID">
+                    <option value="">Bir fakülte seçin</option> <!-- Varsayılan bir seçenek ekleyelim -->
+                </select>
+                <span asp-validation-for="fakulteID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Ekle" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

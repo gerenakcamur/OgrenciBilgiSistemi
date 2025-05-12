@@ -1,0 +1,43 @@
+@model IEnumerable<OgrenciBilgiSistemi.Models.Bolum>
+
+@{
+    ViewData["Title"] = "Bölümler";
+}
+
+<h1>Bölümler</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Yeni Bölüm Ekle</a>
+</p>
+<table class="table table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.bolumAd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fakulte)
+            </th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.bolumAd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fakulte.fakulteAd)
+            </td>
+            <td>
+                <div class="btn-group" role="group">
+                    <a asp-action="Edit" asp-route-id="@item.bolumID" class="btn btn-sm btn-warning">Düzenle</a>
+                    <a asp-action="Details" asp-route-id="@item.bolumID" class="btn btn-sm btn-info">Detaylar</a>
+                    <a asp-action="Delete" asp-route-id="@item.bolumID" class="btn btn-sm btn-danger">Sil</a>
+                </div>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

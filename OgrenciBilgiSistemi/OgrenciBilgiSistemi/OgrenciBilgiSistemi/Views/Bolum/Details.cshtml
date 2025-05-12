@@ -1,0 +1,29 @@
+﻿@model OgrenciBilgiSistemi.Models.Bolum
+
+@{
+    ViewData["Title"] = "Bölüm Detayları";
+}
+
+<h1>Bölüm Detayları</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.bolumAd)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.bolumAd)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Fakulte)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Fakulte.fakulteAd)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.bolumID" class="btn btn-warning">Düzenle</a>
+    <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+</div>

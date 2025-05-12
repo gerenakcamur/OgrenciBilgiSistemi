@@ -1,0 +1,293 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\bolum\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\bolum\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\ogrenci\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\ogrenci\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\ogrenciders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\ogrenciders\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\ogrenciders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\ogrenciders\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\ogrenciders\\ogrenciderslersonuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\ogrenciders\\ogrenciderslersonuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\ogrenciders\\ogrencidersler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\ogrenciders\\ogrencidersler.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\ogrenciders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\ogrenciders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\ogrenciders\\derssayilari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\ogrenciders\\derssayilari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\ogrenciders\\dersogrencilerisonuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\ogrenciders\\dersogrencilerisonuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\bolum\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\bolum\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\ders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\ders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\ogrenci\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\ogrenci\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\models\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\models\\ogrenci.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|c:\\users\\yavuz\\onedrive\\masa\u00FCst\u00FC\\ogrencibilgisistemi\\ogrencibilgisistemi\\ogrencibilgisistemi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DCAEF091-AD02-4EF7-AC06-E6EF094D4711}|OgrenciBilgiSistemi\\OgrenciBilgiSistemi.csproj|solutionrelative:ogrencibilgisistemi\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Bolum\\Delete.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\Bolum\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Bolum\\Delete.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\Bolum\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T16:38:28.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Ogrenci\\Delete.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\Ogrenci\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Ogrenci\\Delete.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\Ogrenci\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:55:57.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\Create.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\Create.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\Create.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:44:00.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DersOgrencileriSonuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\DersOgrencileriSonuc.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\DersOgrencileriSonuc.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\DersOgrencileriSonuc.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\DersOgrencileriSonuc.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:43:42.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OgrenciDersler.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\OgrenciDersler.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\OgrenciDersler.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\OgrenciDersler.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\OgrenciDersler.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:38:28.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OgrenciDerslerSonuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\OgrenciDerslerSonuc.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\OgrenciDerslerSonuc.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\OgrenciDerslerSonuc.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\OgrenciDerslerSonuc.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:38:24.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\Index.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\Index.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:38:07.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DersSayilari.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\DersSayilari.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\DersSayilari.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\DersSayilari.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\DersSayilari.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:38:03.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\OgrenciDers\\Edit.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\OgrenciDers\\Edit.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:37:57.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Bolum\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\Bolum\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Bolum\\Edit.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\Bolum\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:29:22.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Ders\\Details.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\Ders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Ders\\Details.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\Ders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:19:22.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Ogrenci\\Create.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\Ogrenci\\Create.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Ogrenci\\Create.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\Ogrenci\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T14:07:03.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Ogrenci.cs",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Models\\Ogrenci.cs",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Models\\Ogrenci.cs",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Models\\Ogrenci.cs",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Models\\Ogrenci.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T14:06:50.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T13:27:54.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T13:23:07.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-12T13:22:14.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\appsettings.json",
+              "RelativeDocumentMoniker": "OgrenciBilgiSistemi\\appsettings.json",
+              "ToolTip": "C:\\Users\\yavuz\\OneDrive\\Masa\u00FCst\u00FC\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\OgrenciBilgiSistemi\\appsettings.json",
+              "RelativeToolTip": "OgrenciBilgiSistemi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T10:03:23.096Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

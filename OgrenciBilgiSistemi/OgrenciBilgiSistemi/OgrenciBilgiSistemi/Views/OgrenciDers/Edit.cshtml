@@ -1,0 +1,79 @@
+﻿@model OgrenciBilgiSistemi.Models.OgrenciDers
+
+@{
+    ViewData["Title"] = "Öğrenci-Ders Düzenle";
+}
+
+<h1>Öğrenci-Ders Düzenle</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <form asp-action="Edit" method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <input type="hidden" name="ogrenciId" value="@Model.ogrenciID" />
+            <input type="hidden" name="dersId" value="@Model.dersID" />
+
+            <div class="form-group mb-3">
+                <label class="control-label">Öğrenci</label>
+                <select class="form-control" disabled asp-items="ViewBag.Ogrenciler"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label class="control-label">Ders</label>
+                <select class="form-control" disabled asp-items="ViewBag.Dersler"></select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="yil" class="control-label">Yıl</label>
+                <select id="yil" name="yil" class="form-control" asp-items="ViewBag.Yillar"></select>
+                <span class="text-danger field-validation-valid" data-valmsg-for="yil" data-valmsg-replace="true"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="yariyil" class="control-label">Yarıyıl</label>
+                <select id="yariyil" name="yariyil" class="form-control" asp-items="ViewBag.Yariyillar"></select>
+                <span class="text-danger field-validation-valid" data-valmsg-for="yariyil" data-valmsg-replace="true"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="vize" class="control-label">Vize</label>
+                <input id="vize" name="vize" class="form-control" type="number" min="0" max="100" value="@Model.vize" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="vize" data-valmsg-replace="true"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="final" class="control-label">Final</label>
+                <input id="final" name="final" class="form-control" type="number" min="0" max="100" value="@Model.final" />
+                <span class="text-danger field-validation-valid" data-valmsg-for="final" data-valmsg-replace="true"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

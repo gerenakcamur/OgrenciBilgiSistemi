@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<style>
+    .custom-card {
+        transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+        border-radius: 1rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .custom-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-header {
+        border-top-left-radius: 1rem !important;
+        border-top-right-radius: 1rem !important;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+
+    .btn {
+        border-radius: 0.5rem;
+    }
+
+    h1.display-4 {
+        font-weight: 700;
+        color: #2c3e50;
+    }
+
+    p.lead {
+        font-size: 1.1rem;
+        color: #6c757d;
+    }
+</style>
+
+<div class="text-center my-4">
+    <h1 class="display-4">📚 Öğrenci Bilgi Sistemi</h1>
+    <p class="lead">Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card custom-card mb-4">
+            <div class="card-header bg-primary text-white">
+                Fakülte İşlemleri
+            </div>
+            <div class="card-body">
+                <p>Fakülte ekleme, düzenleme, silme ve listeleme işlemleri</p>
+                <a asp-controller="Fakulte" asp-action="Index" class="btn btn-primary w-100">Fakülte İşlemleri</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card custom-card mb-4">
+            <div class="card-header bg-success text-white">
+                Bölüm İşlemleri
+            </div>
+            <div class="card-body">
+                <p>Bölüm ekleme, düzenleme, silme ve listeleme işlemleri</p>
+                <a asp-controller="Bolum" asp-action="Index" class="btn btn-success w-100">Bölüm İşlemleri</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card custom-card mb-4">
+            <div class="card-header bg-info text-white">
+                Öğrenci İşlemleri
+            </div>
+            <div class="card-body">
+                <p>Öğrenci ekleme, düzenleme, silme ve listeleme işlemleri</p>
+                <a asp-controller="Ogrenci" asp-action="Index" class="btn btn-info w-100">Öğrenci İşlemleri</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card custom-card mb-4">
+            <div class="card-header bg-warning text-">
+                Ders İşlemleri
+            </div>
+            <div class="card-body">
+                <p>Ders ekleme, düzenleme, silme ve listeleme işlemleri</p>
+                <a asp-controller="Ders" asp-action="Index" class="btn btn-warning w-100 text-white">Ders İşlemleri</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card custom-card mb-4">
+            <div class="card-header bg-danger text-white">
+                Öğrenci-Ders İşlemleri
+            </div>
+            <div class="card-body">
+                <p>Öğrencilere ders atama, silme ve düzenleme işlemleri</p>
+                <a asp-controller="OgrenciDers" asp-action="Index" class="btn btn-danger w-100">Öğrenci-Ders İşlemleri</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card custom-card mb-4">
+            <div class="card-header bg-secondary text-white">
+                Raporlar
+            </div>
+            <div class="card-body">
+                <p>Öğrenci dersleri ve ders istatistikleri</p>
+                <div class="d-grid gap-2">
+                    <a asp-controller="OgrenciDers" asp-action="OgrenciDersler" class="btn btn-outline-secondary">Öğrenci Dersleri Sorgulama</a>
+                    <a asp-controller="OgrenciDers" asp-action="DersSayilari" class="btn btn-outline-secondary">Ders Sayıları</a>
+                    <a asp-controller="OgrenciDers" asp-action="DersOgrencileri" class="btn btn-outline-secondary">Ders Öğrencileri ve Not Girişi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

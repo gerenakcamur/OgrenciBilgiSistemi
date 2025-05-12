@@ -1,0 +1,49 @@
+﻿@model OgrenciBilgiSistemi.Models.Ogrenci
+
+@{
+    ViewData["Title"] = "Öğrenci Detayları";
+}
+
+<h1>Öğrenci Detayları</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <dl class="row">
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.ogrenciID)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.ogrenciID)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.ad)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.ad)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.soyad)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.soyad)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Bolum)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Bolum.bolumAd)
+            </dd>
+            <dt class="col-sm-3">
+                Fakülte
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Bolum.Fakulte.fakulteAd)
+            </dd>
+        </dl>
+        <div>
+            <a asp-action="Edit" asp-route-id="@Model.ogrenciID" class="btn btn-warning">Düzenle</a>
+            <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+        </div>
+    </div>
+</div>

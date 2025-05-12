@@ -1,0 +1,54 @@
+﻿@model OgrenciBilgiSistemi.Models.Ogrenci
+
+@{
+    ViewData["Title"] = "Öğrenci Sil";
+}
+
+<h1>Öğrenci Sil</h1>
+
+<h3>Bu öğrenciyi silmek istediğinizden emin misiniz?</h3>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <dl class="row">
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.ogrenciID)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.ogrenciID)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.ad)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.ad)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.soyad)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.soyad)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Bolum)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Bolum.bolumAd)
+            </dd>
+            <dt class="col-sm-3">
+                Fakülte
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Bolum.Fakulte.fakulteAd)
+            </dd>
+        </dl>
+
+        <form asp-action="Delete" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="ogrenciID" />
+            <input type="submit" value="Sil" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-secondary">İptal</a>
+        </form>
+    </div>
+</div>

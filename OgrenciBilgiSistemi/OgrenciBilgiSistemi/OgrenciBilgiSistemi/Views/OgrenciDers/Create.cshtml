@@ -1,0 +1,64 @@
+@{
+    ViewData["Title"] = "Öğrenciye Ders Ata";
+}
+
+<h1>Öğrenciye Ders Ata</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
+        <form asp-action="Create" method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-group mb-3">
+                <label for="ogrenciID" class="control-label">Öğrenci</label>
+                <select id="ogrenciID" name="ogrenciID" class="form-control" asp-items="ViewBag.Ogrenciler"></select>
+                <span class="text-danger field-validation-valid" data-valmsg-for="ogrenciID" data-valmsg-replace="true"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="dersID" class="control-label">Ders</label>
+                <select id="dersID" name="dersID" class="form-control" asp-items="ViewBag.Dersler"></select>
+                <span class="text-danger field-validation-valid" data-valmsg-for="dersID" data-valmsg-replace="true"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="yil" class="control-label">Yıl</label>
+                <select id="yil" name="yil" class="form-control" asp-items="ViewBag.Yillar"></select>
+                <span class="text-danger field-validation-valid" data-valmsg-for="yil" data-valmsg-replace="true"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="yariyil" class="control-label">Yarıyıl</label>
+                <select id="yariyil" name="yariyil" class="form-control" asp-items="ViewBag.Yariyillar"></select>
+                <span class="text-danger field-validation-valid" data-valmsg-for="yariyil" data-valmsg-replace="true"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Ekle" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

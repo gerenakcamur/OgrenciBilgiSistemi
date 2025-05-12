@@ -1,0 +1,95 @@
+@model IEnumerable<OgrenciBilgiSistemi.Models.OgrenciDers>
+
+@{
+    ViewData["Title"] = "Öğrenci Dersleri";
+    var ogrenci = (OgrenciBilgiSistemi.Models.Ogrenci)ViewData["Ogrenci"];
+}
+
+<h1>@ogrenci.TamAd - Aldığı Dersler</h1>
+
+<div class="mb-3">
+    <a asp-action="OgrenciDersler" class="btn btn-secondary">Yeni Sorgu</a>
+</div>
+
+<div class="card mb-3">
+    <div class="card-header bg-info text-white">
+        <h5 class="mb-0">Öğrenci Bilgileri</h5>
+    </div>
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">Öğrenci Numarası:</dt>
+            <dd class="col-sm-9">@ogrenci.ogrenciID</dd>
+            
+            <dt class="col-sm-3">Adı Soyadı:</dt>
+            <dd class="col-sm-9">@ogrenci.TamAd</dd>
+            
+            <dt class="col-sm-3">Bölüm:</dt>
+            <dd class="col-sm-9">@ogrenci.Bolum.bolumAd</dd>
+        </dl>
+    </div>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        Bu öğrencinin henüz kayıtlı dersi bulunmamaktadır.
+    </div>
+}
+else
+{
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Ders.dersKodu)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Ders.dersAd)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.yil)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.yariyil)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.vize)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.final)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Ortalama)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ders.dersKodu)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ders.dersAd)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.yil)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.yariyil)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.vize)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.final)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ortalama)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

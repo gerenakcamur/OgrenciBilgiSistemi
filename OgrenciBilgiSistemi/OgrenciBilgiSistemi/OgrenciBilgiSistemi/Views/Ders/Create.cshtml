@@ -1,0 +1,49 @@
+﻿@model OgrenciBilgiSistemi.Models.Ders
+
+@{
+    ViewData["Title"] = "Ders Ekle";
+}
+
+<h1>Ders Ekle</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["SuccessMessage"]
+            </div>
+        }
+
+        <form asp-action="Create" method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="dersKodu" class="control-label"></label>
+                <input asp-for="dersKodu" class="form-control" />
+                <span asp-validation-for="dersKodu" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="dersAd" class="control-label"></label>
+                <input asp-for="dersAd" class="form-control" />
+                <span asp-validation-for="dersAd" class="text-danger"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="kredi" class="control-label"></label>
+                <input asp-for="kredi" class="form-control" />
+                <span asp-validation-for="kredi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Ekle" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
